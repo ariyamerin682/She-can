@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>She Can Foundation · simple form</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="card">
+    <div class="foundation-name">
+      <h1>She Can Foundation</h1>
+    </div>
+
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name"><i>👤</i> Full name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Aisha Kapoor" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email"><i>✉️</i> Email address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message"><i>💬</i> Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here …" required></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">✦ Submit ✦</button>
+    </form>
+    <div id="successMessage" class="success-message">
+      ✅ Form Submitted Successfully
+    </div>
+
+    <div class="footnote">
+      <span>💜 we believe in every woman</span>
+    </div>
+  </div>
+</body>
+</html>
